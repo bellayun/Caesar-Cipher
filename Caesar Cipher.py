@@ -2,7 +2,7 @@ alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q',
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
 text = input("Type your messeage:\n").lower()
 shift = int(input("Type the shift number:\n"))
-print(text)
+print(text) 
 
 # if new index > 25, say that it's 30, 30-26 = 4
 # TODO1: Create a function called encrypt() that takes 'original_text' and 'shift_amount' as two inputs
